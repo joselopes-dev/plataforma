@@ -1,0 +1,241 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(./background-jogo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+ }
+
+
+ 
+
+ 
+ .container {
+    max-width: 600px;
+    margin: 50px auto;
+    height: 400px;
+    padding: 20px;
+    border-radius: 8px;
+ }
+ 
+ h1 {
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+    padding: 10px;
+ }
+ 
+ h2 {
+    color: #fff;
+    font-size: 25px;
+ }
+ 
+ #options {
+    margin-top: 20px;
+    
+ }
+ 
+ .botao1 {
+    display: inline-block; /* Garante que os elementos fiquem em linha */
+    margin: 5px; /* Espaçamento entre os botões */
+ }
+ 
+ .botao2 {
+    text-align: center;
+    padding: 10px; 
+    display: block;
+    display: inline-block; /* Garante que os elementos fiquem em linha */
+ }
+ 
+ .cont {
+    text-align: center;
+ }
+ 
+ button {
+    display: block;
+    margin: 20px auto 0;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+ }
+ 
+ button:hover {
+    background-color: #0056b3;
+ }
+ 
+ 
+ 
+ *{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'poppins';
+     font-size: 15px;
+     color: white;
+    }
+ 
+ body {
+       background-color: black;
+       
+    }
+    
+ .botaoo {
+      background-color: #007bff;
+      border-radius: 10px;
+      padding: 5px;
+      font-size: 20px;
+      width: 130px;
+      border-radius: 100px;
+    }
+    
+    
+ .titulo {
+      display: flex;
+      justify-content: center;
+      padding: 10px;
+      font-size: 30px;
+      color: #fff;
+    }
+ .kanban {
+      display: flex;
+      justify-content: center;
+      min-height: 580PX;
+      gap: 10px;
+      padding: 10px;
+        
+    }
+    
+ .pergunta {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+ }
+ 
+ .column1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    min-width: 30%;
+    border-radius: 5px;
+    background-image: url(./background-jogo.png);
+ }
+ 
+ .column2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    min-width: 30%;
+    border-radius: 5px;
+    background-image: url(./background-jogo.png);
+ }
+ 
+ .columnx {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    min-width: 30%;
+    border-radius: 5px;
+    background-color: black;
+ }
+ 
+ .column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    min-width: 30%;
+    border-radius: 5px;
+    background-image: url(./background-jogo.png);
+ }
+ 
+    
+ .item {
+     color:rgb(40, 31, 20);
+     padding: 10px;
+     background-color: rgb(254, 248, 84);
+     transform: skew(20deg); 
+     border-radius: 10px;
+     font-size: 15px;
+   }
+    
+ .dragging {
+        opacity: 0.5;
+    }
+    
+ .button:hover {
+      color: #e6f41a;
+    }
+
+
+
+
+
+    
+ 
+ @media (max-width: 500px) {
+     .titulo {font-size: 20px;  
+    
+        }
+    }
+ 
+ @media (max-width: 500px) {
+    .pergunta {font-size: 20px;  
+      
+       }
+    }
+    
+ @media (max-width: 500px) {  
+     *{ font-size: 10px;
+        }
+    }
+    
+ @media (max-width: 500px) {  
+    .column0{min-width: 160px; 
+       }
+    }
+ 
+ @media (max-width: 500px) {  
+    .column3{min-width: 160px;    
+       }
+    }
+ 
+ 
+ @media (max-width: 500px) {  
+    .button {
+       border-radius: 10px;
+       padding: 5px;
+       font-size: 10px;
+       background-image: none;
+       width: 100px;
+       
+       }    
+    }
+ 
+ @media (max-width: 400px) {
+    .botaoo {
+       text-align: center;
+       font-size: 15px;
+       width: 70px;
+ 
+ 
+    }
+ }
+ 
+ 
+ @media (max-width: 400px) {
+ .kanban {
+    display: flex;
+    justify-content: center;
+    min-height: 700PX;
+    gap: 10px;
+    padding: 10px;
+      
+  }}
