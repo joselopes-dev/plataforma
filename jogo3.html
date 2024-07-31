@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="simbolopagi.png"/>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
+    <title>Code-X - Jogo 1</title>
+</head>
+<body>
+    <div id="confetti" class="confetti"></div>
+    <div class="titulo">ALGORITMO TRIÂNGULO</div>
+    
+    <div class="kanban">
+        <div class="columnx" id="game1-items">
+            <!-- Elementos que serão usados nos jogos -->
+            <div id="draggable-1" class="item" draggable="true">Item 1</div>
+            <div id="draggable-2" class="item" draggable="true">Item 2</div>
+            <div id="draggable-3" class="item" draggable="true">Item 3</div>
+            <div id="draggable-4" class="item" draggable="true">Item 4</div>
+            <div id="draggable-5" class="item" draggable="true">Item 5</div>
+            <div id="draggable-6" class="item" draggable="true">Item 6</div>
+            <div id="draggable-7" class="item" draggable="true">Item 7</div>
+            <div id="draggable-8" class="item" draggable="true">Item 8</div>
+            <div id="draggable-9" class="item" draggable="true">Item 9</div>
+        </div>
+        <div class="columnx" id="drop-column"></div>
+        <div id="error-message" class="error-message"></div>
+    </div>
+    
+    <div class="cont">
+        <div class="botao1">
+            <a href="jogo3.html"><button class="botaoo">Próximo</button></a>
+        </div>
+    </div>
+    
+    <div class="cont">
+        <button class="check-button" onclick="checkSequenceTriangulo()">Verificar Sequência Triângulo</button>
+    </div>
+
+    <script src="scriptt.js"></script>
+</body>
+</html>
