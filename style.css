@@ -234,7 +234,7 @@ body {
  .kanban {
     display: flex;
     justify-content: center;
-    min-height: 500PX;
+    min-height: 600PX;
     gap: 10px;
     padding: 10px;
       
