@@ -244,6 +244,7 @@ body {
   @media (max-width: 400px) {
   .item {
    font-size: 5px;
+   width: 160px;
   }}
 
 
