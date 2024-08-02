@@ -104,7 +104,7 @@ body {
  .kanban {
       display: flex;
       justify-content: center;
-      min-height: 580PX;
+      min-height: 550PX;
       gap: 10px;
       padding: 10px;
         
@@ -141,7 +141,7 @@ body {
     flex-direction: column;
     gap: 10px;
     padding: 10px;
-    min-width: 30%;
+    min-width: 35%;
     border-radius: 5px;
     background-color: black;
  }
@@ -234,8 +234,21 @@ body {
  .kanban {
     display: flex;
     justify-content: center;
-    min-height: 700PX;
+    min-height: 500PX;
     gap: 10px;
     padding: 10px;
       
   }}
+
+
+  @media (max-width: 400px) {
+  .item {
+   font-size: 10px;
+  }}
+
+
+  @media (max-width: 500px) {  
+   .columnx{min-width: 160px; 
+      }
+   }
+  
